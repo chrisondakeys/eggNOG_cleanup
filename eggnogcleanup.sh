@@ -9,7 +9,7 @@ if [ -z "$1" ]
 fi
 
 mapfile -t i < <(awk -F"\t" '{print $1}' $1)
-mapfile -t j < <(awk -F"\t" '{print $7}' $1)	## edit if COG letters not in column 21
+mapfile -t j < <(awk -F"\t" '{print $7}' $1)	## edit if COG letters not in column 7
 
 tot_count=0
 J_cat=0
