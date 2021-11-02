@@ -15,4 +15,4 @@ Bash and its native text processing and floating point arithmetic tools.
 ### Usage  
 ```chmod +x eggNOG_cleanup.sh```  
 
-```./eggNOG_cleanup.sh <eggNOG tsv results file>```   
+```./eggnogcleanup.sh <eggNOG tsv results file>```   
